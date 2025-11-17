@@ -1,9 +1,9 @@
 fastapi[standard]==0.115.6
-starlette
+uvicorn>=0.34.0
+python-multipart==0.0.20
 moviepy==2.1.2
 streamlit==1.45.0
 edge_tts==6.1.19
-uvicorn>=0.34.0
 openai==1.56.1
 faster-whisper==1.1.0
 loguru==0.7.3
@@ -12,6 +12,5 @@ dashscope==1.20.14
 g4f==0.5.2.2
 azure-cognitiveservices-speech==1.41.1
 redis==5.2.0
-python-multipart==0.0.12
 pyyaml
 requests>=2.31.0
